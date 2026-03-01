@@ -1,0 +1,25 @@
+-- What is SQL? (Structured Query Language)
+   -- > used to interact with relational databases
+   -- > used to perform CRUD operations
+      -- C-> Create
+      -- R -> Read
+      -- U -> Update
+      -- D -> Delete
+
+-- SQL Datatypes?
+-- 1. CHAR -> string, fixed length eg. CHAR(50)
+-- 2. VARCHAR -> string (0-255), upto given length eg, VARCHAR(20)
+-- 3. INT -> integer (-2147483648 to 2147483648)
+-- 4. BIGINT -> Large values
+-- 5. FLOAT -> decimal number
+-- 6. Boolean -> 0 or 1
+-- 7. DOUBLE -> decimal number precision from 23 to 54 digits
+-- 8. SIGNED -> negative positive values
+-- 9. UNSIGNED -> increase range
+
+-- Types of SQL Commands?
+-- DDL (Data Definition Language) -> create,alter,rename,drop,truncate
+-- DQL (Data Query Language) -> select
+-- DML (Data Manipulation Language) -> update,insert,delete
+-- DCL (Data Control Language) -> grant,revoke permissions
+-- TCL (Transaction Control Language) -> start transaction, rollback, commit
